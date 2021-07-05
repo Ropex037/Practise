@@ -1,0 +1,11 @@
+#ball {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border: 2px solid gold;
+    border-radius: 50%;
+    position: relative;
+    top: 200px;
+    left: 500px;
+    transition: left 1s, top 1s;
+}
