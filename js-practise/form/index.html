@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <h3>Poslovna prijava</h3>
+    <form action="second.html" method="POST" class="dark-matter">
+        <h1> Kontakt Forma
+            <span>Molimo popunite sva polja</span>
+        </h1>
+        <label>
+            <span>Vase ime:</span>
+            <input id="inp1" type="text" name="name" placeholder="Vase ime i prezime">
+        </label>
+        <label>
+            <span>Vasa Email adresa:</span>
+            <input id="email1" type="email" name="email" placeholder="Validna Email Adresa">
+        </label>
+        <label>
+            <span>Vas info:</span>
+            <textarea id="message" name="message" placeholder="Kratke informacije o Vama"></textarea>
+        </label>
+        <label>
+            <span>Subject:</span>
+            <select name="selection">
+                <option value="poso">Prijava za poso</option>
+                <option value="kreditiacija">Prijava za Kreditiranje</option>
+            </select>
+        </label>
+        <label>
+            <span>&NonBreakingSpace;</span>
+            <input type="button" id="sendBtn" class="button" value="Send">
+        </label>
+    </form>
+    <script src="main.js"></script>
+</body>
+
+</html>
