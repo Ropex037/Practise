@@ -1,0 +1,23 @@
+.container{
+    width: 100;
+   margin: auto;
+   padding-top: 4%;
+   padding-bottom:4%;
+}
+form h1,p{
+    text-align: center;
+}
+form{
+   border: 1px solid red;
+   padding: 100px;
+   background-color:yellow;
+}
+
+form input{
+    display: block;
+    margin: auto;
+}
+form p,h3 {
+   
+    text-align: center;
+}
