@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapp {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 600px;
+    height: 400px;
+    margin: 30px auto;
+    position: relative;
+}
+
+video {
+    width: 600px;
+    height: 400px;
+}
+
+.btnHolder {
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.btnHolder img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 45%;
+    display: none;
+}
+
+#play {
+    left: 35%;
+}
+
+#reload {
+    left: 55%;
+    background-color: white;
+}
+
+.btnHolder:hover>img {
+    display: block;
+}
