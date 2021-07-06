@@ -1,0 +1,224 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/*global*/
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.clr {
+    clear: both;
+}
+
+.button-1 {
+    background: #e8491d;
+    height: 38px;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+.dark{
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+.container-2 {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.container-2 div {
+    border: 1px #ccc solid;
+    padding: 10px;
+}
+
+.container-2-box-2 {
+    align-items: flex-end;
+}
+
+.img {
+    width: 90px;
+    float: center;
+}
+
+/*herader*/
+
+header {
+    background-color: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #breanding {
+    float: left;
+}
+
+header #breanding h1 {
+    margin-top: 10px;
+}
+
+header nav {
+    float: right;
+    margin-top: 15px;
+}
+
+header .highlight, header .curent a {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+/*showcase*/
+
+#showcase {
+    min-height: 400px;
+    background: url('../image/zubcanici.jpg');
+    text-align: center;
+    color: #ffffff;
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 25px;
+}
+
+#kontakt {
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a;
+}
+
+#kontakt h1 {
+    float: left;
+}
+
+#kontakt form {
+    float: right;
+    margin-top: 15px;
+}
+
+#kontakt input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+aside#Sidebar-2{
+    float:right;
+    width: 30%;
+    margin-top: 10px;
+
+}
+aside#Sidebar-2 li{
+    margin-left: 10px;
+}
+aside#Sidebar-2 .quote input,aside#Sidebar-2 .quote textarea{
+    width: 90%;
+    padding: 5px;
+}
+
+
+article#main-col{
+    float: left;
+    width: 65%;
+}
+
+.cond{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    height: 200px;
+    background-color: #35424a;
+    border-bottom: #e8491d 3px solid;
+    border-top: indianred 3px solid; 
+}
+.cond ul{
+float: right;
+font-size: 20px;
+padding: 50px  200px;
+margin-left: 2000px;
+background: #e8491d;
+border-bottom: #e8491d 3px solid;
+}
+
+ul#services li{
+    list-style: none;
+    padding: 10px;
+    border: #cccccc 1px solid;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+a
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background: #e8491d;
+    text-align: center;
+}
+
+@media(max-width 768px){
+header#breanding,header nav,header nav li,#kontakt h1,#kontakt form,article#main-colm,#aside#Sidebar-2{
+    float: none;
+    text-align: center;
+    width: 100%;
+}
+header{
+    padding-bottom:40px ;
+}
+#showcase h1{
+    margin-top: 40px;
+}
+#kontakt button .quote button{
+    display: block;
+    width: 100%;
+}
+#kontakt form input[type="email"] .quote input, .quote textarea{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
