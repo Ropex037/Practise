@@ -1,0 +1,22 @@
+.skates h5 {
+    text-align: center;
+}
+
+.skates h1 {
+    text-align: center;
+    margin: 25px;
+    border: 1px solid #000;
+}
+
+.skate-card {
+    border: 1px solid whitesmoke;
+    box-shadow: 1px 4px 5px 1px rgba(0, 0, 0, .5);
+    padding: 40px;
+    margin: 20px 0;
+}
+
+.skate-card:hover {
+    box-shadow: 6px 5px 5px 8px rgba(yellow, yellow, yellow, yellow);
+    color: white;
+    background-color: rgb(121, 16, 16);
+}

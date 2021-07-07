@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(121, 16, 16)!important;
+    color: cornsilk!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: cornsilk!important;
+}
+
+.jumbotron h1, p {
+    text-align: center;
+    margin-top: 19px;
+}
+
+.light-back {
+    background-color: darkgray;
+}
+
+.coolSkate {
+    padding: 200px;
+    padding-top: 10px;
+}
+
+.oNama {
+    margin-top: 20px;
+}
+
+.kartice-cont {
+    background-color: rgb(121, 16, 16);
+    padding: 40px;
+}
+
+.card {
+    display: block;
+    margin: auto;
+    height: 391px;
+}
+
+.btn-cool {
+    background-color: rgb(121, 16, 16);
+    color: wheat;
+    display: block;
+    margin: auto;
+}
+
+.lista-futera {
+    background-color: gray;
+}
+
+.lista-futera li {
+    list-style: none;
+    color: honeydew;
+    display: block;
+    margin: auto;
+    padding-left: 38%;
+    padding-top: 5px;
+    line-height: 2;
+    padding-bottom: 5px;
+}
+
+.lista-futera h3 {
+    color: honeydew;
+    text-align: center;
+    padding-top: 5%;
+}
+
+@media(max-width:1200px) {
+    .coolSkate {
+        padding: 0;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+    .kasper {
+        height: 300px;
+        display: block;
+        margin: auto;
+    }
+    .card {
+        display: block;
+        margin-top: 15px
+    }
+}
