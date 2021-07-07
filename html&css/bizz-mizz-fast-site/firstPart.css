@@ -1,0 +1,52 @@
+#section-1-grandient {
+    background-image: linear-gradient(#032905, #1add44);
+}
+
+h1.large {
+    color: #fff;
+    font-size: 56px;
+    margin: 0;
+    line-height: 70px;
+}
+
+.leftSide-col {
+    margin-left: 25%;
+}
+
+input[type='text'] {
+    font-size: 20px;
+    width: 400px;
+    min-width: 100px;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+input[type='password'] {
+    font-size: 20px;
+    width: 400px;
+    min-width: 100px;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+@media (max-width:680px) {
+    .responsive-col {
+        width: 100%;
+        margin: 0;
+    }
+    .leftSide-col, .rightSide-col {
+        margin: 15px;
+    }
+    input[type='text'] {
+        width: 98%;
+    }
+    input[type='password'] {
+        width: 98%;
+    }
+    .videoCont iframe {
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+        padding-left: 5px;
+    }
+}

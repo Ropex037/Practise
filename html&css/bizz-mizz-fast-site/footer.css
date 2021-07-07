@@ -1,0 +1,26 @@
+footer.footsy {
+    background-image: linear-gradient(#032905, #1add44);
+    padding-left: 10%;
+}
+
+.footsy h1 {
+    color: #fff;
+    font-size: 35px;
+}
+
+.footsy ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+
+.footsy ul li {
+    color: #fff;
+    font-size: 22px;
+}
+
+@media (max-width:680px){
+    .col-3{
+        width: 100%;
+    }
+}

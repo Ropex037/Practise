@@ -1,0 +1,23 @@
+article p {
+    padding: 20px;
+    font-size: 28px;
+}
+
+.bizmiz img {
+    display: block;
+    margin: auto;
+    height: 300px;
+    box-shadow: -8px -8px 20px 2px rgba(green, 0, 0, .15), 2px 4px 17px 2px rgba(0, 0, 0, 1);
+}
+
+@media (max-width:680px) {
+    article p {
+        font-size: 25px;
+    }
+    .bizmiz img {
+        width: 100%;
+    }
+    .bizmiz {
+        margin: 10px;
+    }
+}
