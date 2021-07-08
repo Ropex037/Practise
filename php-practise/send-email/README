@@ -1,0 +1,2 @@
+You can use this code for your contact form. 
+You need to insert your email in $recipient and on last line of code in mail.php where do you want to go with it.
