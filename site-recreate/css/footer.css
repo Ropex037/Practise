@@ -1,0 +1,58 @@
+#main-footer {
+    background-color: var(--main-black);
+}
+
+.logo-rog {
+    height: 150px;
+    padding: 20px;
+    border-radius: 7%;
+    margin: 5%;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo-ul li {
+    font-size: 14px;
+    color: var(--main-white);
+}
+
+.srednja-lista h6 {
+    margin-top: 60px;
+    padding-left: 7%;
+    color: var(--main-white);
+}
+
+.srednja-lista li {
+    padding-top: 2%;
+    color: var(--main-white);
+}
+
+.srednja-lista li a {
+    padding-top: 2%;
+    color: var(--main-white);
+    text-decoration: none;
+}
+
+.srednja-lista li a:hover {
+    color: rgb(241, 219, 16)!important;
+}
+
+.zadnja-lista {
+    padding-top: 5%;
+    color: var(--main-white);
+}
+
+.zadnja-lista a {
+    color: var(--main-white);
+    text-decoration: none;
+}
+
+.zadnja-lista li {
+    padding: 1%;
+}
+
+.zadnja-lista a:hover {
+    color: rgb(241, 219, 16)!important;
+}

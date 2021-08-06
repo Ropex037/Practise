@@ -1,0 +1,43 @@
+.blog-info {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.blog-slika:hover {
+    opacity: 0.4;
+}
+
+.blog-text-1 {
+    padding: 2%;
+}
+
+.blog-text-1 a {
+    text-decoration: none;
+}
+
+.blog-card {
+    margin-top: 8%;
+    border: 1px solid wheat;
+    padding: 2%;
+    box-shadow: 1px 4px 5px 1px rgb(0 0 0 / 50%);
+}
+
+.blog-card:hover {
+    opacity: 0.4;
+}
+
+.blog-card img {
+    display: block;
+    margin: auto;
+}
+
+.blog-card h5 {
+    padding: 10%;
+    margin: auto;
+    display: block;
+    color: var(--main-black);
+}
+
+.blog-card a {
+    text-decoration: none;
+}

@@ -1,0 +1,26 @@
+.contact-form h2 {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    margin-bottom: 40px;
+}
+
+.polja {
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+
+.singin-btn {
+    background-color: rgb(241, 219, 16);
+    padding: 10px 20px;
+    width: 60%;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin: auto;
+    display: block;
+}

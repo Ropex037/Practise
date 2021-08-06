@@ -1,0 +1,82 @@
+.ko-smo-mi {
+    background-color: var(--main-black);
+}
+
+.ko-smo-mi h2 {
+    text-align: center;
+    color: var(--main-white);
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+
+.ko-smo-mi h5 {
+    text-align: center;
+    color: var(--main-white);
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+
+.radnici {
+    margin-top: 40px;
+}
+
+.radnici h2, h4, p {
+    color: var(--main-white);
+    text-align: start;
+    margin-left: 5%;
+}
+
+.radnici h5 {
+    text-align: start;
+    width: 100%;
+    margin-left: 5%;
+}
+
+.radnici ul {
+    list-style: none;
+    margin: 0;
+}
+
+.radnici li {
+    color: var(--main-white);
+    float: left!important;
+}
+
+.connect {
+    background-color: rgb(241, 219, 16);
+    padding: 10px 20px;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.connect:hover {
+    background-color: darkgoldenrod;
+}
+
+.velika-slika {
+    width: 60%;
+    padding: 30px;
+    display: block;
+    margin: auto;
+    margin-top: 20%;
+}
+
+.velika-slika-2 {
+    width: 60%;
+    padding: 30px;
+    display: block;
+    margin: auto;
+    margin-top: 8%;
+}
+
+@media (max-width:1200px) {
+    .connect {
+        display: block;
+        margin: auto;
+        width: 80%;
+    }
+    .radnici li {
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,26 @@
+.usluge {
+    background-color: var(--main-black);
+    padding-bottom: 40px;
+}
+
+.usluge h2 {
+    text-align: center;
+    width: 40%;
+    display: block;
+    margin: auto;
+    padding-top: 40px;
+    color: var(--main-white);
+    margin-bottom: 80px;
+}
+
+.usluge h4 {
+    text-align: center;
+    color: var(--main-white);
+}
+
+.slika3 {
+    justify-content: center;
+    display: block;
+    margin: auto;
+    padding: 20px;
+}

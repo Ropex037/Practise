@@ -1,0 +1,16 @@
+.reference {
+    margin: 100px;
+}
+
+@media(max-width:1200px) {
+    .col-lg-2 {
+        width: 50%;
+        padding: 10px;
+    }
+    .reference {
+        margin: 30px;
+    }
+    .slika2 {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,36 @@
+.about-learrning {
+    background-color: rgba(255, 235, 205, 0.562);
+}
+
+.about-learrning h2 {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    padding-top: 80px;
+}
+
+.kartica p {
+    color: var(--main-black);
+    size: 20px;
+    font-weight: 500;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.kartica {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.kartica img {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.kartica img:hover {
+    transition: .5s ease;
+    opacity: 0.5;
+    background-color: #04AA6D;
+}

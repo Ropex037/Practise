@@ -1,0 +1,59 @@
+.blog-1 {
+    padding: 200px;
+}
+
+.side-nav {
+    position: fixed;
+    bottom: 400px;
+}
+
+.side-nav i {
+    font-size: 35px;
+    background-color: rgb(130, 130, 236);
+    color: #000;
+}
+
+.midle-one {
+    display: block;
+    margin-left: auto;
+}
+
+.midle-one h1 {
+    width: 80%;
+    text-align: center;
+}
+
+.midle-one p {
+    padding-top: 20px;
+    width: 85%;
+    font-size: 20px;
+}
+
+.Relationships ul {
+    list-style: outside;
+}
+
+.ostale-vesti {
+    background-color: wheat;
+    padding: 10%;
+    position: sticky;
+}
+
+@media (max-width:1200px) {
+    .blog-1 {
+        padding: 0;
+    }
+    .side-nav {
+        position: sticky;
+        padding: 50px;
+    }
+    .midle-one p {
+        padding-top: 20px;
+        width: 100%;
+        font-size: 20px;
+    }
+    .midle-one h1 {
+        width: 100%;
+        text-align: center;
+    }
+}

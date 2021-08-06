@@ -1,0 +1,46 @@
+.kako-radimo {
+    background-color: var(--main-black);
+}
+
+.kako-radimo h2 {
+    color: var(--main-white);
+    text-align: center;
+    padding-top: 60px;
+    font-weight: 700;
+}
+
+.kako-radimo h4 {
+    color: var(--main-white);
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 700;
+}
+
+.slika-kako {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.sekcija1 {
+    margin-top: 20%;
+}
+
+.poslovanje h3 {
+    color: var(--main-white);
+}
+
+.poslovanje p {
+    color: var(--main-white);
+    font-size: 19px;
+}
+
+.fade-in{
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear{
+    opacity: 1;
+}
+

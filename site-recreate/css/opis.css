@@ -1,0 +1,55 @@
+.opis {
+    margin: 100px;
+}
+
+.opis i {
+    padding-right: 20px;
+}
+
+.opis h4 {
+    color: black;
+}
+
+.opis p {
+    color: var(--main-black);
+}
+
+.opis img {
+    border-radius: 50%;
+    margin-top: 10px;
+    height: 50px;
+    width: 54px;
+}
+
+.slika-profila {
+    margin-left: 20px;
+}
+
+.opis-firme {
+    color: var(--main-black);
+}
+
+.opis p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.profil-name {
+    margin-top: 10px;
+}
+
+@media (width:1200px) {
+    .opis-firme {
+        font-size: 40px;
+        width: 100%;
+    }
+    .slika-profila {
+        margin-left: 0;
+    }
+    .opis img {
+        border-radius: 45%;
+        margin-top: 10px;
+        /* height: 42px;
+        width: 54px; */
+    }
+}

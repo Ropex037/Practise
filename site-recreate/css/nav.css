@@ -1,0 +1,50 @@
+.navbar-light a.navbar-brand {
+    float: left!important;
+}
+
+.navbar-light a.navbar-brand {
+    float: right!important;
+}
+
+.navbar-collapse {
+    flex-grow: 0!important;
+    margin-right: 180px;
+}
+
+.navbar {
+    background-color: var(--main-black)!important;
+    padding: 25px;
+    position: fixed;
+    width: 100vw;
+    z-index: 999;
+}
+
+.navbar a {
+    color: var(--main-white)!important;
+    font-size: 20px;
+}
+
+a.book-call {
+    color: rgb(241, 219, 16)!important;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: var(--main-white)!important;
+}
+
+@media (max-width:1200px) {
+    .navbar-collapse {
+        flex-grow: 1!important;
+        margin-right: 0px;
+        background-color: black!important;
+    }
+    .navbar {
+        background-color: var(--main-black)!important;
+        padding: 20px 0;
+        width: 100vw;
+        max-width: 100vw;
+        position: fixed;
+        overflow: hidden;
+        z-index: 999;
+    }
+}
