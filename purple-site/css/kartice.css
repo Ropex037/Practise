@@ -1,0 +1,85 @@
+.kartice {
+    margin-bottom: 5%;
+}
+
+.kartice h1 {
+    padding-top: 10%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.kartice h2 {
+    text-align: center;
+}
+
+.donji-txt {
+    padding-bottom: 8%;
+}
+
+.kartica-1 {
+    border-radius: 7px;
+    background-color: var(--main-purple);
+    display: block;
+    margin: auto;
+    padding: 4%;
+    margin-right: 5px;
+    padding-bottom: 6%;
+}
+
+.kartica-1 img {
+    display: block;
+    margin: auto;
+}
+
+.kartica-1 h4 {
+    color: var(--main-white);
+    text-align: center;
+    padding: 2%;
+}
+
+.kartica-1 p {
+    color: var(--main-white);
+    text-align: center;
+    padding: 2%;
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.card-btn {
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+    padding: 15px 10px;
+    background-color: var(--main-purple);
+    border: 1px solid var(--main-white);
+    color: white;
+}
+
+.card-btn:hover {
+    background-color: var(--second-purple);
+}
+
+@media(max-width:1200px) {
+    .kartica-1 p {
+        color: var(--main-white);
+        text-align: center;
+        width: 100%;
+        display: block;
+        margin: auto;
+        max-width: 70%;
+        overflow: hidden;
+        font-size: 20px;
+    }
+    .kartica-1 {
+        border-radius: 7px;
+        background-color: var(--main-purple);
+        display: block;
+        margin: auto;
+        padding: 0;
+        margin-bottom: 5px;
+        padding-bottom: 6%;
+        overflow: hidden;
+    }
+}

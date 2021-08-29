@@ -1,0 +1,87 @@
+.slajder {
+    margin-top: 200px;
+}
+
+.slajder img {
+    height: 600px;
+    z-index: 0;
+    position: relative;
+}
+
+.carousel-inner h1 {
+    z-index: 999;
+    color: var(--main-white);
+    position: absolute;
+    top: 5%;
+    left: 40%;
+}
+
+.carousel-inner p {
+    z-index: 999;
+    color: var(--main-white);
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    width: 70%;
+}
+
+.carousel-control-prev-icon {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.carousel-control-next-icon {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.mini-prof {
+    position: absolute!important;
+    height: 80px!important;
+    bottom: 20%;
+    left: 48%;
+    z-index: 999;
+}
+
+@media(max-width:1200px) {
+    .carousel-inner h1 {
+        z-index: 999;
+        color: var(--main-white);
+        position: absolute;
+        top: 3%;
+        left: 20%;
+    }
+    .carousel-inner p {
+        z-index: 999;
+        color: var(--main-white);
+        position: absolute;
+        top: 20%;
+        left: 15%;
+        width: 70%;
+        font-size: 14px;
+    }
+    .mini-prof {
+        position: absolute!important;
+        height: 50px!important;
+        bottom: 5%;
+        left: 40%;
+        z-index: 999;
+    }
+    .carousel-control-next-icon {
+        border: 1px solid black;
+        border-radius: 50%;
+        padding: 10px;
+    }
+    .carousel-control-prev-icon {
+        border: 1px solid black;
+        border-radius: 50%;
+        padding: 10px;
+    }
+    .slajder img {
+        height: 400px;
+        z-index: 0;
+        position: relative;
+    }
+}

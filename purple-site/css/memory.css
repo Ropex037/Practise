@@ -1,0 +1,129 @@
+.memory {
+    margin-top: 4%;
+    background-color: var(--main-purple);
+    position: relative;
+    height: 30vw;
+}
+
+.memory h1 {
+    color: var(--main-white);
+    padding-top: 4%;
+}
+
+.memory h3 {
+    color: var(--main-white);
+    text-align: center;
+}
+
+.top-img {
+    position: absolute;
+    top: 0;
+    left: 10%;
+}
+
+.second-top-image {
+    position: absolute;
+    top: 5%;
+    right: 15%;
+}
+
+.mid {
+    position: absolute;
+    top: 40%;
+    right: 0;
+}
+
+.normalna {
+    position: absolute;
+    left: 5%;
+    top: 30%;
+}
+
+.bot {
+    position: absolute;
+    bottom: 5%;
+    right: 20%;
+}
+
+@media(max-width:1200px) {
+    .memory {
+        margin-top: 4%;
+        background-color: var(--main-purple);
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    .top-img {
+        position: absolute;
+        top: 0;
+        left: 10%;
+    }
+    .memory h1 {
+        color: var(--main-white);
+        padding-top: 20%;
+    }
+    .memory h3 {
+        color: var(--main-white);
+        text-align: center;
+    }
+    .second-top-image {
+        position: absolute;
+        top: 5%;
+        right: 8%;
+    }
+    .mid {
+        position: absolute;
+        top: 40%;
+        right: 0;
+    }
+    .normalna {
+        position: absolute;
+        left: 0;
+        top: 60%;
+    }
+    .bot {
+        position: absolute;
+        bottom: 50%;
+        left: 0;
+    }
+}
+
+@media(max-width:480px) {
+    .memory {
+        margin-top: 4%;
+        background-color: var(--main-purple);
+        position: absolute;
+        height: 800px;
+        width: 100%;
+        margin-bottom: 20%;
+    }
+    .normalna {
+        position: absolute;
+        left: 0;
+        top: 47%;
+    }
+    .second-top-image {
+        position: absolute;
+        top: 25%;
+        left: 0;
+    }
+    .memory h1 {
+        color: var(--main-white);
+        padding-top: 30%;
+    }
+    .memory h3 {
+        color: var(--main-white);
+        text-align: center;
+    }
+    .mid {
+        position: absolute;
+        top: 26%;
+        right: 0;
+    }
+    .bot {
+        position: absolute;
+        bottom: 1%;
+        left: 7%;
+    }
+}

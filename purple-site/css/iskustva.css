@@ -1,0 +1,95 @@
+.iskustva {
+    color: whitesmoke;
+    background-color: rgba(194, 38, 38, 0.171);
+    padding-bottom: 4%;
+}
+
+.iskustva h6 {
+    padding-top: 20%;
+    font-weight: 700;
+    color: black;
+}
+
+.iskustva hr {
+    height: 3px;
+    color: black;
+}
+
+.iskustva h1 {
+    text-align: start;
+    color: black;
+    width: 80%;
+}
+
+.iskustva p {
+    text-align: start;
+    color: black;
+    width: 80%;
+    font-size: 20px;
+}
+
+.iskustva-btn {
+    border-radius: 50px;
+    padding: 15px 10px;
+    background-color: var(--main-purple);
+    border: 1px solid var(--main-white);
+    color: white;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 1);
+}
+
+.iskustva-btn:hover {
+    background-color: var(--second-purple);
+}
+
+.iskustva img {
+    padding-top: 20%;
+    margin: auto;
+    display: block;
+}
+
+.iskustva2 {
+    background-color: rgba(194, 38, 38, 0.171);
+    padding-bottom: 20px;
+    margin-top: 4%;
+}
+
+.iskustva2 h6 {
+    padding-top: 20%;
+    font-weight: 700;
+    color: black;
+}
+
+.iskustva2 hr {
+    height: 3px;
+    color: black;
+}
+
+.iskustva2 h1 {
+    text-align: start;
+    color: black;
+    width: 80%;
+}
+
+.iskustva2 p {
+    text-align: start;
+    color: black!important;
+    width: 80%;
+    font-size: 20px;
+}
+
+.iskustva2 img {
+    padding-top: 20%;
+    margin: auto;
+    display: block;
+}
+
+@media(max-width:1200px) {
+    .iskustva {
+        color: whitesmoke;
+        margin-top: 800px;
+    }
+    .iskustva2 {
+        color: whitesmoke;
+        margin-top: 20px;
+    }
+}
