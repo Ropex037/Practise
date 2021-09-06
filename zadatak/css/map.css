@@ -1,0 +1,10 @@
+.map-part{
+display: block;
+margin: auto;
+padding: 20px;
+padding-top: 0;
+}
+#map { 
+    height: 400px;
+    width: 100%
+  }

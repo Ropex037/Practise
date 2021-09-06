@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+body {
+    --main-white: white;
+    --main-pink: #FF2350;
+    --main-black: black;
+    --hover-color:rgb(168, 10, 36);
+}

@@ -1,0 +1,29 @@
+header {
+    background-color: whitesmoke;
+}
+
+.mover {
+    margin-top: 10%;
+    padding-left: 5%;
+}
+
+.mover h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: var(--main-black);
+}
+
+.quote-btn {
+    padding: 20px 40px;
+    border-radius: 7px;
+    background-color: var(--main-pink);
+    margin-top: 8%;
+    color: var(--main-white);
+    border: none;
+    box-shadow: 2px 2px 2px 2px #888888;
+    margin-bottom: 5%;
+}
+
+.quote-btn:hover {
+    background-color: rgb(168, 10, 36);
+}

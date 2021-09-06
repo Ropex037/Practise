@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- !meta tag -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- fontawsome -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+    <!-- mapbox -->
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.css' rel='stylesheet' />
+    <!-- css links -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/customers.css">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/pricing.css">
+    <link rel="stylesheet" href="css/faq.css">
+    <link rel="stylesheet" href="css/coments.css">
+    <link rel="stylesheet" href="css/map.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/fadeIn.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/"><img class="logo img img-fluid" src="img/logo2.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="apartmentMoveing.html">Apartment Moveing</a></li>
+                            <li><a class="dropdown-item" href="local.html">Local Moveing</a></li>
+                            <li><a class="dropdown-item" href="residental.html">Residential Moveing</a></li>
+                            <li><a class="dropdown-item" href="commercial.html">Commerical Moveing</a></li>
+                            <li><a class="dropdown-item" href="storage.html">Storage In and Out</a></li>
+                            <li><a class="dropdown-item" href="packing.html">Packing Services</a></li>
+                            <li><a class="dropdown-item" href="packerAndMovers.html">Packers and Movers</a></li>
+                            <li><a class="dropdown-item" href="labor.html">Labor-only Moving</a></li>
+
+                        </ul>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Blog
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Blog page 1</a></li>
+                            <li><a class="dropdown-item" href="#">Bloge page 2</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">New from our blog</a></li>
+                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#FAQ">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontakt.html">Contact Us</a>
+                    </li>
+                    </li>
+                </ul>
+                <a class="nav-button" role="button" href=""><i class="fas fa-phone-alt"></i> (610) 467-9834</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- header -->
+
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="mover col-lg-3 col-sm-12">
+                    <h1>Mover.</h1>
+                    <h4>Fast and secure Move</h4>
+                    <p>If you want to have a safe and secure move with group of profesionals,you are in the right place!
+                    </p>
+                    <button class="quote-btn" type="submit">Get a Quote</button>
+
+                </div>
+                <div class="city-img col-lg-9 col-sm-12">
+                    <img class="img img-fluid" src="img/grad.jpg" alt="city photo">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- forma  -->
+    <section id="Quotes" class="quote-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <img class="packer img img-fluid fade-in" src="img/nosac.jpg" alt="Packers">
+
+                    <div class="delatnost">
+                        <p><i class="fas fa-play"></i> Packing and unpacking </p>
+                        <p><i class="yellow fas fa-play"></i> Packing and unpacking</p>
+                        <p><i class="orange fas fa-play"></i> Packing and unpacking</p>
+                    </div>
+                </div>
+                <div class="Get-quote col-lg-6 col-sm-12">
+                    <h1>Get a Quote</h1>
+                    <p>Getting a quote is fast and simple and the best part is that is free. Reach out to us and let us
+                        guide you through your moving process.</p>
+                    <form action="php/form.php" class="my-form fade-in" method="POST">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fas fa-truck"></i></span>
+                                    <input type="number" name="From-ZIP" class="form-control"
+                                        placeholder="Moveing From ZIP code" aria-label="Moveing From ZIP code" required>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fas fa-map"></i></span>
+                                    <input type="number" name="To-ZIP" class="form-control"
+                                        placeholder="Moveing to ZIP code" aria-label="Moveing to ZIP code" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1"><i
+                                            class="fas fa-user-alt"></i></span>
+                                    <input type="text" name="name" class="form-control" placeholder="Your Full Name"
+                                        aria-label="First name" required>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1"><i
+                                            class="fas fa-envelope"></i></span>
+                                    <input type="email" name="email" class="form-control"
+                                        placeholder="Your Email Adress" aria-label="Email" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1"><i
+                                            class="fas fa-phone-alt"></i></span>
+                                    <input type="number" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                                        class="form-control" placeholder="Your Phone Number" aria-label="Phone Number"
+                                        required>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1"><i
+                                            class="far fa-calendar-alt"></i></span>
+                                    <input type="date" name="date" class="form-control" placeholder="Date of move"
+                                        aria-label="Date" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-dolly"></i></span>
+                            <select class="form-select" name="select" size="1" aria-label="Default select example"
+                                required>
+                                <option selected>Size Of Move</option>
+                                <option value="1">Studio</option>
+                                <option value="2">1 Bedroom</option>
+                                <option value="3">2 Bedroom</option>
+                                <option value="4">3 Bedroom</option>
+                                <option value="5">4 Bedroom</option>
+                                <option value="6">4+ Bedroom</option>
+                                <option value="7">Small Ofice</option>
+                                <option value="8">Medium Ofice</option>
+                                <option value="9">Large Ofice</option>
+                                <option value="10">Small Storage</option>
+                                <option value="11">Medium Storage</option>
+                                <option value="12">Large Storage</option>
+                            </select><br>
+                        </div>
+                        <div class="form-dugme row">
+                            <button class="form-btn" type="submit"><i class="strelica fas fa-share"></i> Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Happy Customers -->
+    <section class="customers">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="customer-txt col-lg-6 col-sm-12">
+                    <h1 class="fade-in">Happy Customers</h1>
+                    <h3 class="fade-in">Local Moveing and Packing</h3>
+                    <p class="fade-in">Regardless what type of local move you need, one is guaranteed-we will provide
+                        you with best
+                        local move. After the moves is done let us know how your move was.</p>
+                    <div class="counters row">
+                        <div class="numbers col-lg-3">
+                            <h1 class="counter" data-bs-target="97">0</h1>
+                            <span class="procenat">%</span>
+
+                            <div class="row">
+                                <h4 class="fade-in">Happy Customers</h4>
+                            </div>
+                        </div>
+                        <div class="numbers col-lg-3">
+                            <h1 class="counter" data-bs-target="100">0</h1>
+                            <span class="proc">%</span>
+                            <div class="row">
+                                <h4>Trained Employees</h4>
+                            </div>
+                        </div>
+                        <div class="numbers col-lg-3">
+                            <h1 class="counter" data-bs-target="7">0</h1>
+                            <div class="row">
+                                <h4>Days a Week Available</h4>
+                            </div>
+
+                        </div>
+                        <div class="numbers number-1 col-lg-3">
+                            <h1 class="counter  pink-txt" data-bs-target="1000">0</h1>
+                            <span class="plus">+</span>
+                            <div class="row">
+                                <h4 class="pink-txt">Clients a Year</h4>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <img class="customer-img img img-fluid" src="img/Take-time-to-unpack-921x884.jpg"
+                        alt="Take-time-to-unpack">
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+
+    <div class="services">
+        <div class="container">
+            <div class="row">
+                <div class="services-txt col-lg-4 col-sm-12">
+                    <h1>Services</h1>
+                    <h4>Local Moveing Company</h4>
+                    <p>Read more about our services and pick one that suit your needs.</p>
+                </div>
+                <div class="cards col-lg-4 col-sm-12">
+                    <i class="fas fa-truck"></i>
+                    <h4>Local Moving</h4>
+                    <p>When relocating locally gets tough, tiring and daunting, we swoop in to save the day. Our goal is
+                        to simplify your entire local moving process, all the way from your first phone call with us, to
+                        the final delivery of your belongings at your new home.</p>
+                    <a href="local.html">Read more...</a>
+                </div>
+                <div class="cards col-lg-4 col-sm-12">
+                    <i class="fas fa-dolly"></i>
+                    <h4>Residential Moving</h4>
+                    <p>Residential moves require a lot of important decision making, and no matter where you are going,
+                        a residential move can bring big changes for you and your family. However, they don’t always
+                        need to be overwhelming, when you hire our expertly trained movers for help.</p>
+                    <a href="residental.html">Read more...</a>
+
+                </div>
+
+                <div class="cards col-lg-4 col-sm-12">
+                    <i class="fas fa-truck-loading"></i>
+                    <h4>Commercial Moving</h4>
+                    <p>Your upcoming commercial move doesn’t have to be stressful with unexpected surprises and
+                        hints of chaos on your moving day. Our professional commercial movers will enable you to
+                        stay productive, while they provide you with a seamless commercial relocation.</p>
+                    <a href="commercial.html">Read more...</a>
+
+                </div>
+                <div class="cards col-lg-4 col-sm-12">
+                    <i class="fas fa-couch"></i>
+                    <h4>Apartment Moving</h4>
+                    <p>Even the smallest apartment moves often require detailed planning and careful execution. This
+                        is the exact approach that our expert movers take to ensure that your upcoming apartment
+                        move is a simple endeavor that you will be content with.</p>
+                    <a href="apartmentMoveing.html">Read more...</a>
+
+                </div>
+                <div class="cards col-lg-4 col-sm-12">
+                    <i class="fas fa-people-carry"></i>
+                    <h4>Packers and Movers</h4>
+                    <p>Your hassle-free, dream relocation is more than possible when you choose the right movers for
+                        the job. Our professional movers and packers know exactly how to provide you with a seamless
+                        door-to—door service that will require absolutely no effort on your end.</p>
+                    <a href="packerAndMovers.html">Read more...</a>
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <!-- Pricing -->
+    <section class="pricing fade-in">
+
+        <h1>Pricing</h1>
+        <h3>For Best Price & Services</h3>
+        <div class="container">
+            <div class="row">
+                <div class="part-1 col-lg-4 col-sm-12">
+                    <div class="naslov">
+                        <h3>Standard Service</h3>
+                    </div>
+                    <div class="body-part">
+                        <p>This is the basic one, it excludes packin of your personal belongings.</p>
+                        <div class="dugme">
+                            <a role="button" href="">GET QOUTE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="part-1 col-lg-4 col-sm-12">
+                    <div class="naslov">
+                        <h3>Partial Packing</h3>
+                    </div>
+                    <div class="body-part">
+                        <p>We will provide you with disassembly, reassembly and protection of
+                            your items. Beside that,we can help you with packing part of your belongings.</p>
+                        <div class="dugme">
+                            <a role="button" href="">GET QOUTE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="part-1 col-lg-4 col-sm-12">
+                    <div class="naslov">
+                        <h3>Full Packing</h3>
+                        <img class="img img-fluid" src="img/recomend.jpg" alt="recomended">
+                    </div>
+                    <div class="body-part">
+                        <p>Relax and let us pack and move all of your belongings.This is the best service you can
+                            schedule.</p>
+                        <div class="dugme">
+                            <a role="button" href="">GET QOUTE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        </div>
+
+    </section>
+    <!-- FAQ -->
+    <section id="FAQ" class="faq fade-in">
+        <h1>FAQ</h1>
+        <div class="container">
+            <div class="row">
+                <div class="faq-txt col-lg-4 col-sm-12">
+                    <h4>Are mover more expensive during the weekends?</h4>
+                    <p>Since weekend moves are more popular and convenient for most people, some companies do charge
+                        more for weekend moves. Give you moveing company a call and ask if there is any diffrences in
+                        pricing on weekends ad opposed to weekday moves, and if there is any possibility of saveing
+                        money by moveing your date around, that is great option to have.</p>
+                </div>
+                <div class="faq-txt col-lg-4 col-sm-12">
+                    <h4>Will movers pack your items?</h4>
+                    <p>Most professional companies offer the service of both packing your items before moveing them.
+                        Even though this service dose come with some additional expenses, having your moving company
+                        pack up everything you own can save you a lot of time and effort in the long run. Your moving
+                        company will also make an inventory of your behalf, and even help you unpack, so this is a
+                        convenient option to have when looking for professional movers to handle your relocation. </p>
+                </div>
+                <div class="faq-txt col-lg-4 col-sm-12">
+                    <h4>How much a movers charge per hour?</h4>
+                    <p>Hom much will be charge for your move can depend on quite a large number of aspect, such as the
+                        difrence between you two location, the numbers of movers need to preform your move, and if you
+                        are looking for any additional moving services. Requesting a quote from moving companies is the
+                        only way to find out exectly how much you will be charge per hour and your moving company can
+                        offer provide you with an estimate how much you will end up paying.</p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- coments -->
+
+    <section class="coments">
+        <div class="slika container">
+            <div class="pink-corner"></div>
+            <div class="purple-corner"></div>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="mini-prof img img-fluid" src="img/maliprofil.png" alt="">
+
+                        <h3>I am so happy with this expiriance! We have move across country over 4 times and never have
+                            i expirianced such great customer service professionals movers. And amaizing follow up. I am
+                            customer for life! </h3>
+                        <h4><span><i class="fas fa-minus"></i></span> Random Randomovic</h4>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="mini-prof img img-fluid" src="img/maliprofil.png" alt="">
+
+                        <h3>I am so happy with this expiriance! We have move across country over 4 times and never have
+                            i expirianced such great customer service professionals movers. And amaizing follow up. I am
+                            customer for life! </h3>
+                        <h4><span><i class="fas fa-minus"></i></span> Random Randomovic</h4>
+
+                    </div>
+                    <div class="carousel-item">
+                        <img class="mini-prof img img-fluid" src="img/maliprofil.png" alt="">
+
+                        <h3>I am so happy with this expiriance! We have move across country over 4 times and never have
+                            i expirianced such great customer service professionals movers. And amaizing follow up. I am
+                            customer for life! </h3>
+                        <h4><span><i class="fas fa-minus"></i></span> Random Randomovic</h4>
+
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+    </section>
+    <!-- footer -->
+
+    <footer class="footer-top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="map-part col-lg-6 col-sm-12">
+                    <div id='map'></div>
+                </div>
+
+                <div class="col-lg-2 col-sm-12">
+                    <h5 class="first-list">PlYMOUTH MEETING MOVERS</h5>
+                    <ul>
+                        <li><i class="fas fa-phone"></i><a href="">(610)467-9834</a></li>
+                        <li><i class="fas fa-map-marker"></i><a
+                                href="https://www.google.com/maps/place/Ni%C5%A1ka+44,+Beograd+11000/data=!4m2!3m1!1s0x475a7a9d9ac1b883:0x520be66417b68dd7?sa=X&ved=2ahUKEwjS9eX03OXyAhUwqZUCHUF1D6kQ8gF6BAgFEAE">Niska
+                                44 Beograd Srbija</a></li>
+                        <li><i class="fas fa-envelope-open-text"></i><a href="">SomeMail@random.com</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-sm-12">
+                    <h5>OPENING HOURS</h5>
+                    <ul>
+                        <li>Monday 6am-8pm</li>
+                        <li>Tuesday 6am-8pm</li>
+                        <li>Wednesday 6am-8pm</li>
+                        <li>Thursday 6am-8pm</li>
+                        <li>Friday 6am-8pm</li>
+                        <li>Saturday 6am-8pm</li>
+
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-sm-12">
+                    <h5>QUICK LINKS</h5>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="index.html#FAQ">FAQ</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="kontakt.html">Contact Us</a></li>
+
+
+                </div>
+
+            </div>
+        </div>
+        <!-- footer-bot -->
+        <div class="bot-footer">
+            <h6>&copy 2021 PlYMOUTH MEETING MOVERS,ALL RIGHT RESERVED.</h6>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.js'></script>
+    <script src="js/caunter.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/fadeIn.js"></script>
+
+</body>
+
+</html>

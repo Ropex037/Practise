@@ -1,0 +1,109 @@
+.coments {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.carousel-inner {
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding-bottom: 10%;
+}
+
+.carousel-inner h3 {
+    width: 60%;
+    text-align: start;
+    display: block;
+    margin: auto;
+    padding-top: 10%;
+}
+
+.carousel-inner h4 {
+    padding-top: 20px;
+    padding-left: 20%;
+}
+
+.carousel-inner span {
+    color: yellow;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.carousel-control-next-icon {
+    color: var(--main-black)!important;
+    background-color: rgb(255, 255, 0);
+    border: 1px solid black;
+}
+
+.carousel-control-prev-icon {
+    color: var(--main-black)!important;
+    background-color: rgb(255, 255, 0);
+    border: 1px solid black;
+}
+
+.slika {
+    position: relative;
+}
+
+.pink-corner {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(red, var(--main-pink));
+    z-index: 5;
+    top: -6%;
+    left: -3%;
+    border-radius: 15px;
+}
+
+.purple-corner {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(blue, purple);
+    z-index: 4;
+    top: 1%;
+    left: -6%;
+    border-radius: 15px;
+}
+
+.mini-prof {
+    position: absolute;
+    margin-top: 2%;
+    z-index: 10;
+}
+
+@media(max-width:480px) {
+    .purple-corner {
+        position: absolute;
+        width: 0;
+        height: 0;
+        z-index: 4;
+        border-radius: 15px;
+    }
+    .pink-corner {
+        position: absolute;
+        width: 0;
+        height: 0;
+        z-index: 5;
+    }
+    .mini-prof {
+        position: absolute;
+        margin-top: 138%;
+        margin-left: 45%;
+        z-index: 10;
+        padding-bottom: 20px;
+    }
+    .carousel-inner span i {
+        color: yellow;
+        margin-top: 12%;
+        font-size: 20px;
+    }
+    .carousel-inner h4 {
+        padding-left: 20%;
+    }
+    .carousel-inner {
+        background-color: whitesmoke;
+        border-radius: 15px;
+        padding-bottom: 20%;
+    }
+}

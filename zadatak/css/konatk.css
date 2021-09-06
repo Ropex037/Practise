@@ -1,0 +1,115 @@
+.contact-section {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.contact-cards {
+    border-radius: 7px;
+    background-color: whitesmoke;
+    width: 30%;
+    height: 400px;
+    padding: 20px;
+    margin-left: 2%;
+    padding-top: 5%;
+}
+
+.contact-cards i {
+    display: block;
+    margin: auto;
+    font-size: 80px;
+    background-color: var(--main-pink);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding-top: 10%;
+    text-align: center;
+    color: var(--main-white);
+}
+
+.contact-cards h3 {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.contact-cards a {
+    text-decoration: none;
+    color: var(--main-pink);
+    font-size: 20px;
+    padding-left: 30%;
+    padding-top: 10%;
+}
+
+@media (max-width:1200px) {
+    .contact-cards {
+        border-radius: 7px;
+        background-color: whitesmoke;
+        width: 100%;
+        height: 400px;
+        padding: 20px;
+        margin-left: 2%;
+        padding-top: 5%;
+    }
+    .contact-section {
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    .contact-cards {
+        margin-top: 10%;
+    }
+    .contact-cards a {
+        text-decoration: none;
+        color: var(--main-pink);
+        font-size: 30px;
+        padding-left: 39%;
+        padding-top: 10%;
+    }
+    .adresa {
+        padding-left: 30%!important;
+    }
+    .contact-cards i {
+        padding-top: 5%;
+    }
+}
+
+@media (max-width:768px) {
+    .contact-cards a {
+        text-decoration: none;
+        color: var(--main-pink);
+        font-size: 30px;
+        padding-left: 35%;
+        padding-top: 10%;
+    }
+    .adresa {
+        padding-left: 25%!important;
+    }
+}
+
+@media (max-width:480px) {
+    .contact-cards {
+        border-radius: 7px;
+        background-color: whitesmoke;
+        width: 100%;
+        height: 400px;
+        padding: 20px;
+        margin-left: 2%;
+        padding-top: 5%;
+    }
+    .contact-section {
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    .contact-cards {
+        margin-top: 10%;
+    }
+    .contact-cards a {
+        text-decoration: none;
+        color: var(--main-pink);
+        font-size: 20px;
+        padding-left: 30%;
+        padding-top: 10%;
+    }
+    .adresa {
+        padding-left: 16%!important;
+    }
+}

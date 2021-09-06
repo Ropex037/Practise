@@ -1,0 +1,81 @@
+.quote-section {
+    padding-top: 5%;
+    background-color: whitesmoke;
+}
+
+.packer {
+    padding: 40px;
+    margin-left: 0;
+}
+
+.delatnost p {
+    display: inline;
+    margin-left: 9%;
+    font-size: 14px;
+}
+
+.delatnost i.orange {
+    color: orange;
+}
+
+.delatnost i.yellow {
+    color: yellow;
+}
+
+.Get-quote {
+    margin-top: 3%;
+}
+
+.Get-quote h1 {
+    font-size: 80px;
+    font-weight: 900;
+    color: var(--main-black);
+    margin-bottom: 5%;
+}
+
+.my-form {
+    padding: 10%;
+}
+
+.my-form input {
+    padding: 13px;
+}
+
+.my-form i {
+    color: var(--main-pink);
+}
+
+.form-dugme {
+    margin-top: 10%;
+}
+
+.form-btn {
+    display: block;
+    margin: auto;
+    width: 96%;
+    padding: 20px;
+    background-color: var(--main-pink);
+    color: var(--main-white);
+}
+
+.form-btn:hover {
+    background-color: rgb(168, 10, 36);
+}
+
+.strelica {
+    color: var(--main-white)!important;
+}
+
+@media (max-width:1200px) {
+    .delatnost p {
+        display: block;
+        margin-left: 9%;
+        font-size: 14px;
+    }
+    .Get-quote h1 {
+        font-size: 50px;
+        font-weight: 900;
+        color: var(--main-black);
+        margin-bottom: 5%;
+    }
+}

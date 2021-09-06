@@ -1,0 +1,122 @@
+.services {
+    margin-top: 15%;
+}
+
+.services-txt h1 {
+    font-size: 80px;
+    font-weight: 900;
+    color: var(--main-black);
+    text-align: start;
+    padding-left: 6%;
+}
+
+.services-txt h4 {
+    font-size: 60px;
+    font-weight: bold;
+    color: var(--main-black);
+    padding-left: 6%;
+}
+
+.services-txt p {
+    font-size: 20px;
+    padding-left: 6%;
+}
+
+.cards {
+    border-radius: 7px;
+    background-color: whitesmoke;
+    display: block;
+    margin: auto;
+    padding: 4%;
+    margin-bottom: 4%;
+    width: 30%;
+    height: 600px;
+}
+
+.cards:hover {
+    background-color: var(--main-pink);
+    color: white!important;
+}
+
+.cards i {
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+    background-color: var(--main-pink);
+    font-size: 50px;
+    padding-top: 5%;
+    width: 80px;
+    height: 80px;
+}
+
+.cards h4 {
+    padding-top: 30%;
+    text-align: center;
+}
+
+.cards p {
+    padding-top: 2%;
+}
+
+.cards a {
+    text-decoration: none;
+    color: var(--main-pink);
+}
+
+.cards:hover a {
+    color: var(--main-white);
+}
+
+@media (max-width:1200px) {
+    .services-txt h1 {
+        font-size: 60px;
+        font-weight: 900;
+        color: var(--main-black);
+        text-align: start;
+    }
+    .services-txt h4 {
+        font-size: 30px;
+        font-weight: bold;
+        color: var(--main-black);
+        padding-left: 6%;
+    }
+    .services-txt p {
+        font-size: 20px;
+        padding-left: 6%;
+    }
+    .cards {
+        border-radius: 7px;
+        background-color: whitesmoke;
+        display: block;
+        margin: auto;
+        padding: 4%;
+        margin-bottom: 4%;
+        width: auto;
+        height: auto
+    }
+    .cards i {
+        text-align: center;
+        display: block;
+        margin: auto;
+        border-radius: 50px;
+        background-color: var(--main-pink);
+        font-size: 50px;
+        padding-top: 2%;
+        width: 80px;
+        height: 80px;
+    }
+}
+@media(max-width:480px){
+    .cards i {
+        text-align: center;
+        display: block;
+        margin: auto;
+        border-radius: 50px;
+        background-color: var(--main-pink);
+        font-size: 50px;
+        padding-top: 4%;
+        width: 80px;
+        height: 80px;
+    }
+}

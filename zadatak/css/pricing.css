@@ -1,0 +1,71 @@
+.pricing {
+    margin-top: 5%;
+}
+
+.pricing h1 {
+    text-align: start;
+    font-size: 80px;
+    font-weight: 900;
+    color: var(--main-black);
+    margin-left: 8%;
+}
+
+.pricing h3 {
+    color: var(--main-black);
+    margin-bottom: 5%;
+    margin-left: 8%;
+}
+
+.naslov {
+    background-color: var(--main-pink);
+    padding: 20px;
+    position: relative;
+}
+
+.naslov h3 {
+    color: var(--main-white);
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.naslov img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 74px;
+}
+
+.body-part {
+    background-color: whitesmoke;
+    height: 100%;
+}
+
+.part-1 {
+    margin-bottom: 30%;
+}
+
+.body-part p {
+    width: 70%;
+    padding-top: 30px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.dugme {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.body-part a {
+    text-decoration: none;
+    border-radius: 7px;
+    background-color: var(--main-pink);
+    padding: 20px 40px;
+    color: white;
+    text-align: center;
+}
+.body-part a:hover {
+background-color: rgb(168, 10, 36);
+}

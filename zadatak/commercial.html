@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- !meta tag -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- fontawsome -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+    <!-- mapbox -->
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.css' rel='stylesheet' />
+    <!-- css links -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/map.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/apartment.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/"><img class="logo img img-fluid" src="img/logo2.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="apartmentMoveing.html">Apartment Moveing</a></li>
+                            <li><a class="dropdown-item" href="local.html">Local Moveing</a></li>
+                            <li><a class="dropdown-item" href="residental.html">Residential Moveing</a></li>
+                            <li><a class="dropdown-item" href="commercial.html">Commerical Moveing</a></li>
+                            <li><a class="dropdown-item" href="storage.html">Storage In and Out</a></li>
+                            <li><a class="dropdown-item" href="packing.html">Packing Services</a></li>
+                            <li><a class="dropdown-item" href="packerAndMovers.html">Packers and Movers</a></li>
+                            <li><a class="dropdown-item" href="labor.html">Labor-only Moving</a></li>
+
+                        </ul>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Blog
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Blog page 1</a></li>
+                            <li><a class="dropdown-item" href="#">Bloge page 2</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">New from our blog</a></li>
+                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#FAQ">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontakt.html">Contact Us</a>
+                    </li>
+                    </li>
+                </ul>
+                <a class="nav-button" role="button" href=""><i class="fas fa-phone-alt"></i> (610) 467-9834</a>
+            </div>
+        </div>
+    </nav>
+    <!-- apartment-moveing -->
+    <section class="apartment-moveing">
+        <h1>Apartment Moveing</h1>
+    </section>
+
+    <!-- apartment-moveing donji deo -->
+    <section id="moveing-2">
+        <div class="container">
+            <div class="row">
+                <div id="sticky" class="side-nav col-lg-3 col-sm-12">
+                    <ul>
+                        <li><a href="apartmentMoveing.html">Apartment Moveing</a></li>
+                        <li><a href="local.html">Local Moveing</a></li>
+                        <li><a href="residental.html">Residential Moveing</a></li>
+                        <li><a href="commercial.html">Commercial Moveing</a></li>
+                        <li><a href="storage.html">Storage In and Out</a></li>
+                        <li><a href="packing.html">Packing Service</a></li>
+                        <li><a href="packerAndMovers.html">Packers and Movers</a></li>
+                        <li><a href="labor.html">Labor-only Moveing</a></li>
+
+
+                    </ul>
+                </div>
+                <div class="appartment-mid col-lg-9 col-sm-12">
+                    <img class="img img-fluid" src="img/resident.jpg" alt="closet"><br><br>
+
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio quod unde eos ad expedita ea
+                        quasi vero! Temporibus tempora modi eius minima quasi nam itaque autem ipsa officiis, cum vitae
+                        sit unde excepturi atque dolorem ullam libero velit, optio quisquam!.</p>
+
+                    <p></p>
+
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex deleniti fugiat provident porro
+                        officia excepturi inventore amet veritatis. Voluptates ipsam officiis itaque suscipit ducimus!
+                        Ducimus dolorum ea aspernatur nam rem, hic voluptatum optio consequuntur eveniet? Doloribus
+                        similique iure sapiente neque soluta voluptatibus ea voluptates quaerat ut, inventore cumque,
+                        voluptate molestias.</p>
+
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex deleniti fugiat provident porro
+                        officia excepturi inventore amet veritatis. Voluptates ipsam officiis itaque suscipit ducimus!
+                        Ducimus dolorum ea aspernatur nam rem, hic voluptatum optio consequuntur eveniet? Doloribus
+                        similique iure sapiente neque soluta voluptatibus ea voluptates quaerat ut, inventore cumque,
+                        voluptate molestias.
+                    </p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio quod unde eos ad expedita ea
+                        quasi vero! Temporibus tempora modi eius minima quasi nam itaque autem ipsa officiis, cum vitae
+                        sit unde excepturi atque dolorem ullam libero velit, optio quisquam!..</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- footer -->
+
+    <footer class="footer-top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="map-part col-lg-6 col-sm-12">
+                    <div id='map'></div>
+                </div>
+
+                <div class="col-lg-2 col-sm-12">
+                    <h5 class="first-list">PlYMOUTH MEETING MOVERS</h5>
+                    <ul>
+                        <li><i class="fas fa-phone"></i><a href="">(610)467-9834</a></li>
+                        <li><i class="fas fa-map-marker"></i><a
+                                href="https://www.google.com/maps/place/Ni%C5%A1ka+44,+Beograd+11000/data=!4m2!3m1!1s0x475a7a9d9ac1b883:0x520be66417b68dd7?sa=X&ved=2ahUKEwjS9eX03OXyAhUwqZUCHUF1D6kQ8gF6BAgFEAE">Niska
+                                44 Beograd Srbija</a></li>
+                        <li><i class="fas fa-envelope-open-text"></i><a href="">SomeMail@random.com</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-sm-12">
+                    <h5>OPENING HOURS</h5>
+                    <ul>
+                        <li>Monday 6am-8pm</li>
+                        <li>Tuesday 6am-8pm</li>
+                        <li>Wednesday 6am-8pm</li>
+                        <li>Thursday 6am-8pm</li>
+                        <li>Friday 6am-8pm</li>
+                        <li>Saturday 6am-8pm</li>
+
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-sm-12">
+                    <h5>QUICK LINKS</h5>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="index.html#FAQ">FAQ</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="kontakt.html">Contact Us</a></li>
+
+
+                </div>
+
+            </div>
+        </div>
+        <!-- footer-bot -->
+        <div class="bot-footer">
+            <h6>&copy 2021 PlYMOUTH MEETING MOVERS,ALL RIGHT RESERVED.</h6>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.js'></script>
+    <script src="js/caunter.js"></script>
+    <script src="js/map.js"></script>
+
+</body>
+
+</html>

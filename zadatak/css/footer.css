@@ -1,0 +1,60 @@
+.footer-top{
+background-color: whitesmoke;
+}
+
+
+.footer-top h5 {
+    color: var(--main-black);
+    padding-left: 10px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid var(--main-black);
+    position: relative;
+    margin-top: 50px;
+    
+}
+
+.footer-top h5::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 30%;
+    bottom: -2px;
+    height: 3px;
+    background-color: var(--main-pink);
+}
+/* opcionalno za istu liniju */
+/* .first-list{
+    margin-top:29px!important;
+} */  
+.footer-top li{
+    list-style: none;
+    padding-top: 20px;
+   }
+
+.footer-top a{
+    text-decoration: none;
+    color: var(--main-pink);
+}
+.footer-top a:hover{
+    color:rgb(168, 10, 36);
+}
+
+.bot-footer{
+    background-color: rgb(63, 62, 62);
+    padding: 30px;
+}
+.bot-footer h6{
+text-align: center;
+color: whitesmoke;
+}
+
+@media(max-width:1200px){
+    .footer-top li{
+        list-style: none;
+        padding-top: 20px;
+        font-size: 15px;
+       }
+       .footer-top ul{
+      padding-left: 10px!important;
+       }
+}

@@ -1,0 +1,44 @@
+.faq {
+    background-color: whitesmoke;
+}
+
+.faq h1 {
+    text-align: start;
+    font-size: 80px;
+    font-weight: 900;
+    color: var(--main-black);
+    margin-left: 15%;
+    padding-top: 5%;
+}
+
+.faq-txt {
+    margin-top: 5%;
+    width: 30%;
+    margin-left: 2%;
+}
+
+.faq-txt h4 {
+    font-size: 40px;
+    color: var(--main-black);
+    font-weight: bold;
+}
+
+.faq-txt p {
+    margin-top: 4%;
+}
+
+@media (max-width:1200px) {
+    .faq h1 {
+        text-align: center;
+        font-size: 80px;
+        font-weight: 900;
+        color: var(--main-black);
+        padding-top: 5%;
+        margin: auto;
+    }
+    .faq-txt {
+        margin-top: 5%;
+        width: auto;
+        margin-left: 2%;
+    }
+}
