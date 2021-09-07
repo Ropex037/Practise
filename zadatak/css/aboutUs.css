@@ -1,0 +1,29 @@
+.About-us {
+    margin-top: 10%;
+}
+
+.bold-txt {
+    font-weight: bold;
+    padding-top: 5%;
+}
+
+.nosac {
+    margin-bottom: 10%;
+    margin-top: -6%;
+}
+
+.nosac2 {
+    height: 50vw;
+}
+
+@media (max-width:1200px) {
+    .nosac2 {
+        height: 100%;
+        display: block;
+        margin: auto;
+    }
+    .nosac {
+        margin-bottom: 10%;
+        margin-top: 5%;
+    }
+}

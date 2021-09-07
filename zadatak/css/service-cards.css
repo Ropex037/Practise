@@ -1,0 +1,26 @@
+.service-cards {
+    margin-top: 10%;
+    background-color: whitesmoke;
+    margin-bottom: 10%;
+}
+
+.card-window {
+    text-decoration: none;
+    padding: 40px;
+}
+
+.card-window:hover {
+    opacity: 1;
+    transition: 2ms;
+    color: var(--main-pink);
+    box-shadow: 5px 5px 5px 4px var(--main-pink);
+}
+
+.card-window a {
+    color: var(--hover-color);
+    text-decoration: none;
+}
+
+.card-window a:hover {
+    color: var(--main-pink);
+}
